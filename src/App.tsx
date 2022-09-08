@@ -14,11 +14,11 @@ export default function App() {
       <ThemeProvider theme={appTheme}>
         <Jupyter
           jupyterServerHttpUrl='http://localhost:8888'
-          jupyterServerWsUrl='http://localhost:8888'
-          jupyterToken='f65518b22e5cd157a0947b4d79f991e422639bc1fb8606fe'
+          jupyterServerWsUrl='ws://localhost:8888'
+          jupyterToken='60c1661cc408f978c309d04157af55c9588ff9557c9380e4fb50785750703da6'
         >
           <Notebook
-            path='../notebooks/test.ipynb'
+            path='test.ipynb'
             ipywidgets='classic'
           />
         </Jupyter>
