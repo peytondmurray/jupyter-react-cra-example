@@ -8,17 +8,17 @@ const appTheme = createTheme({
   },
 });
 
-function App() {
+export default function App() {
   return (
     <div className="App">
       <ThemeProvider theme={appTheme}>
         <Jupyter
-          jupyterServerHttpUrl='http://localhost:8888/api/jupyter'
-          jupyterServerWsUrl='http://localhost:8888/api/jupyter'
-          jupyterToken='36273d12328f34c3f5b4ffdc45efb8e2e87620e648fcc911'
+          jupyterServerHttpUrl='http://localhost:8888'
+          jupyterServerWsUrl='http://localhost:8888'
+          jupyterToken='f65518b22e5cd157a0947b4d79f991e422639bc1fb8606fe'
         >
           <Notebook
-            path='../assets/test.ipynb'
+            path='../notebooks/test.ipynb'
             ipywidgets='classic'
           />
         </Jupyter>
@@ -26,5 +26,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
