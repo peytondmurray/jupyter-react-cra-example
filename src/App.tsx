@@ -18,7 +18,7 @@ export default function App() {
           jupyterToken='60c1661cc408f978c309d04157af55c9588ff9557c9380e4fb50785750703da6'
         >
           <Notebook
-            path='test.ipynb'
+            path='/test.ipynb'
             ipywidgets='classic'
           />
         </Jupyter>
