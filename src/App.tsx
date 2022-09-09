@@ -13,8 +13,8 @@ export default function App() {
     <div className="App">
       <ThemeProvider theme={appTheme}>
         <Jupyter
-          jupyterServerHttpUrl='http://localhost:8686/api/jupyter'
-          jupyterServerWsUrl='ws://localhost:8686/api/jupyter'
+          jupyterServerHttpUrl='http://localhost:8888'
+          jupyterServerWsUrl='ws://localhost:8888'
           jupyterToken='60c1661cc408f978c309d04157af55c9588ff9557c9380e4fb50785750703da6'
         >
           <Notebook
