@@ -1397,10 +1397,10 @@
   resolved "https://registry.yarnpkg.com/@csstools/selector-specificity/-/selector-specificity-2.0.2.tgz#1bfafe4b7ed0f3e4105837e056e0a89b108ebe36"
   integrity sha512-IkpVW/ehM1hWKln4fCA3NzJU8KwD+kIOvPZA4cqxoJHtE21CCzjyp+Kxbu0i5I4tBNOlXPL9mjwnWlL0VEG4Fg==
 
-"@datalayer/jupyter-react@^0.0.21":
-  version "0.0.21"
-  resolved "https://registry.yarnpkg.com/@datalayer/jupyter-react/-/jupyter-react-0.0.21.tgz#7a6392176bc77497eb9118bb34931e320c64dd02"
-  integrity sha512-YlbAddVSWPdYaRI1wsKjGXVqLZv64/j33P/OpH/IBleMjq7IBKN+AZ2utsLVEaAQnfMP40AEfUebZxJNOK2PKg==
+"@datalayer/jupyter-react@^0.0.22":
+  version "0.0.22"
+  resolved "https://registry.yarnpkg.com/@datalayer/jupyter-react/-/jupyter-react-0.0.22.tgz#766f055ef756cd2b67bacdb1ce46a6efaaa112c7"
+  integrity sha512-0BkjcO1z9iuMJdSXoeGc9jVfIzTWKTUP/b287Vll9i/aoBTd+RFG7TN29e7B7Po6Ds18bH3NfSjqMe01bUefBw==
   dependencies:
     "@codemirror/lang-python" "6.0.1"
     "@datalayer/jupyterlite-ipykernel" "0.1.0-beta.13"

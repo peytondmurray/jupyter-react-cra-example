@@ -63,6 +63,7 @@ export default function App() {
       jupyterServerHttpUrl={JUPYTER_SERVER_HTTP_URL}
       jupyterServerWsUrl={JUPYTER_SERVER_WS_URL}
       jupyterToken={JUPYTER_TOKEN}
+      defaultKernelName="python3"
     >
       <NotebookKernelChange />
     </Jupyter>
