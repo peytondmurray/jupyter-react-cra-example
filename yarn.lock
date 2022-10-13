@@ -1397,10 +1397,10 @@
   resolved "https://registry.yarnpkg.com/@csstools/selector-specificity/-/selector-specificity-2.0.2.tgz#1bfafe4b7ed0f3e4105837e056e0a89b108ebe36"
   integrity sha512-IkpVW/ehM1hWKln4fCA3NzJU8KwD+kIOvPZA4cqxoJHtE21CCzjyp+Kxbu0i5I4tBNOlXPL9mjwnWlL0VEG4Fg==
 
-"@datalayer/jupyter-react@^0.0.22":
-  version "0.0.22"
-  resolved "https://registry.yarnpkg.com/@datalayer/jupyter-react/-/jupyter-react-0.0.22.tgz#766f055ef756cd2b67bacdb1ce46a6efaaa112c7"
-  integrity sha512-0BkjcO1z9iuMJdSXoeGc9jVfIzTWKTUP/b287Vll9i/aoBTd+RFG7TN29e7B7Po6Ds18bH3NfSjqMe01bUefBw==
+"@datalayer/jupyter-react@^0.0.23":
+  version "0.0.23"
+  resolved "https://registry.yarnpkg.com/@datalayer/jupyter-react/-/jupyter-react-0.0.23.tgz#c3800b71150c87e8d5b7e5a46c22ce52c4fd5bd8"
+  integrity sha512-pSX5NoplPA7mnuUZW85ps51cMpHtLLbviN+8K0L5GB9LHktswcz3N6h5/nC7bsF2H+AbvRJy7JEqb8aJcg6Kiw==
   dependencies:
     "@codemirror/lang-python" "6.0.1"
     "@datalayer/jupyterlite-ipykernel" "0.1.0-beta.13"
@@ -1442,8 +1442,8 @@
     "@jupyterlab/theme-dark-extension" "4.0.0-alpha.13"
     "@jupyterlab/theme-light-extension" "4.0.0-alpha.13"
     "@lumino/default-theme" "1.0.0-alpha.4"
-    "@primer/octicons-react" "17.0.0"
-    "@primer/react" "35.8.0"
+    "@primer/octicons-react" "17.7.0"
+    "@primer/react" "35.10.0"
     assert "2.0.0"
     codemirror "6.0.1"
     lodash "^4.17.4"
@@ -3502,10 +3502,10 @@
   resolved "https://registry.yarnpkg.com/@primer/behaviors/-/behaviors-1.2.0.tgz#35952a30d049ec546440af09c2058c47abe63115"
   integrity sha512-SeD00vXuTNFviLdJiehRsV5T7uk39TcZF1yhiyPTVFDNuJC8hrkC9NdCMZyF2DXtH+yaaWGM5/gp4F0KYhRa3g==
 
-"@primer/octicons-react@17.0.0":
-  version "17.0.0"
-  resolved "https://registry.yarnpkg.com/@primer/octicons-react/-/octicons-react-17.0.0.tgz#c16ac8671edee682a513b1afa8a004c7c5b1d767"
-  integrity sha512-/9VLaNVNWwmTFgFlaxO3r+4GbqiG05ytkDLbKxBAdBiOJLadUPo6P0k+/zJdp8No/S2bBNvEtZNNk5zQj87H4w==
+"@primer/octicons-react@17.7.0":
+  version "17.7.0"
+  resolved "https://registry.yarnpkg.com/@primer/octicons-react/-/octicons-react-17.7.0.tgz#50f3ceb2f636154a3e7fa6e355350b75f03bba88"
+  integrity sha512-rxJiArra+q7lorhzQH223btMcRR8di9TUei9DhQG18jmVEI+wQTY+MypI5FZqU8UyehBOtcnD4TWx+i4Zwpz5Q==
 
 "@primer/octicons-react@^17.3.0":
   version "17.5.0"
@@ -3517,10 +3517,10 @@
   resolved "https://registry.yarnpkg.com/@primer/primitives/-/primitives-7.9.0.tgz#c8a27287488c8308b1715a7d73214629c331544a"
   integrity sha512-ZHHfwB0z0z6nDJp263gyGIClYDy+rl0nwqyi4qhcv3Cxhkmtf+If2KVjr6FQqBBFfi1wQwUzaax2FBvfEMFBnw==
 
-"@primer/react@35.8.0":
-  version "35.8.0"
-  resolved "https://registry.yarnpkg.com/@primer/react/-/react-35.8.0.tgz#f84c35430b8f8b6d74ffe548ba6a444db22fa6b1"
-  integrity sha512-zgKr/yaGuc28sfVNPG6AtsCh8yNHD32TsxzrY5YNkTioCr3LMDoy6Bc6y9fnlGtLnUP6yvQy/EzJKBxZDkgkuQ==
+"@primer/react@35.10.0":
+  version "35.10.0"
+  resolved "https://registry.yarnpkg.com/@primer/react/-/react-35.10.0.tgz#394838c99c6cf6fd495c6fd7b45cf75cc5fc2e38"
+  integrity sha512-V8Uh3ewmtQ9L4cOU3ykSdhuo71F4uy2xFc0UgdM4B+r/TIED87B/xlmpPKoa6CDfeU+BT4NkOWUOolMNNddsQA==
   dependencies:
     "@github/combobox-nav" "^2.1.5"
     "@github/markdown-toolbar-element" "^2.1.0"
@@ -3528,7 +3528,6 @@
     "@primer/behaviors" "^1.1.1"
     "@primer/octicons-react" "^17.3.0"
     "@primer/primitives" "7.9.0"
-    "@radix-ui/react-polymorphic" "^0.0.14"
     "@react-aria/ssr" "^3.1.0"
     "@styled-system/css" "^5.1.5"
     "@styled-system/props" "^5.1.5"
@@ -3545,11 +3544,6 @@
     history "^5.0.0"
     react-intersection-observer "9.4.0"
     styled-system "^5.1.5"
-
-"@radix-ui/react-polymorphic@^0.0.14":
-  version "0.0.14"
-  resolved "https://registry.yarnpkg.com/@radix-ui/react-polymorphic/-/react-polymorphic-0.0.14.tgz#fc6cefee6686db8c5a7ff14c8c1b9b5abdee325b"
-  integrity sha512-9nsMZEDU3LeIUeHJrpkkhZVxu/9Fc7P2g2I3WR+uA9mTbNC3hGaabi0dV6wg0CfHb+m4nSs1pejbE/5no3MJTA==
 
 "@react-aria/ssr@^3.1.0":
   version "3.3.0"

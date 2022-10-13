@@ -3,7 +3,7 @@ import { useState, useEffect, useRef } from "react";
 import { useDispatch } from "react-redux";
 import { Box } from '@primer/react';
 
-import { useJupyter, Jupyter, Kernel, Notebook, notebookActions } from '@datalayer/jupyter-react'
+import { useJupyter, Jupyter, Kernel, Notebook, notebookActions, selectNotebookModel } from '@datalayer/jupyter-react'
 import { Button } from '@mui/material';
 
 const JUPYTER_SERVER_HTTP_URL = 'http://localhost:8888'
@@ -31,6 +31,11 @@ const NotebookKernelChange = () => {
     }
   }
 
+  function logNotebookModel() {
+    const model = selectNotebookModel(NOTEBOOK_UID)
+    console.log({ model })
+  }
+
   useEffect(() => {
     if (kernelManager && !kernel) {
       changeKernel()
@@ -48,6 +53,7 @@ const NotebookKernelChange = () => {
           inputRef={inputRef}
         />
         <Button onClick={() => changeKernel(inputRef.current?.value)}>Submit</Button>
+        <Button onClick={logNotebookModel}>Log Notebook Model</Button>
       </Box>
       <Notebook
         uid={NOTEBOOK_UID}
